@@ -39,13 +39,15 @@ For connecting to the CMOS PCB v3.2 you will do the following connections (shown
 * SSC Clock connects to PCLK
 * SSC FRAME connects to D10 or D11 (use which ever one you didn't connect SSC DATA to)
 
-![INTAN PCB wiring](img/Intan-PCB-Bottom.png)
+![INTAN PCB wiring_bottom](img/Intan-PCB-Bottom.png)
+
+![INTAN_PCB_wiring_top](Intan-PCB-Top.png)
 
 ### 3) Programming the MCU on the INTAN PCB
 
 On one side of the INTAN PCB is the Intan RHD2132 chip and the other side is an ARM Cortex microcontroller (MCU). This MCU needs to be programmed once with the E-Scope firmware before it is functional. To do this we need to connect 4 lines to the INTAN PCB. This can, and maybe should, be done before completing step 2 above. The advantage of doing this programming step after completing step 2 above is the INTAN PCB can be powered through the coax cable and no additional power supply is needed.
 
-You need to connect the following lines (refer to the image in step 2):
+You need to connect the following lines (refer to the images in step 2):
 * SWCLK
 * SWDIO
 * MCU V+
