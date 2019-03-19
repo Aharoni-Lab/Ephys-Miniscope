@@ -242,21 +242,21 @@
       </framework-data>
     </AsfFrameworkConfig>
     <avrtool>com.atmel.avrdbg.tool.atmelice</avrtool>
-    <avrtoolserialnumber>J41800071577</avrtoolserialnumber>
+    <avrtoolserialnumber>J41800115347</avrtoolserialnumber>
     <avrdeviceexpectedsignature>0xA1120E00</avrdeviceexpectedsignature>
     <com_atmel_avrdbg_tool_atmelice>
       <ToolOptions>
         <InterfaceProperties>
-          <SwdClock>2000000</SwdClock>
+          <SwdClock>491841</SwdClock>
         </InterfaceProperties>
         <InterfaceName>SWD</InterfaceName>
       </ToolOptions>
       <ToolType>com.atmel.avrdbg.tool.atmelice</ToolType>
-      <ToolNumber>J41800071577</ToolNumber>
+      <ToolNumber>J41800115347</ToolNumber>
       <ToolName>Atmel-ICE</ToolName>
     </com_atmel_avrdbg_tool_atmelice>
     <avrtoolinterface>SWD</avrtoolinterface>
-    <avrtoolinterfaceclock>2000000</avrtoolinterfaceclock>
+    <avrtoolinterfaceclock>491841</avrtoolinterfaceclock>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>
