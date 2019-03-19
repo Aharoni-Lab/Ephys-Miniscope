@@ -41,7 +41,7 @@ For connecting to the CMOS PCB v3.2 you will do the following connections (shown
 
 ![INTAN PCB wiring_bottom](img/Intan-PCB-Bottom.png)
 
-![INTAN_PCB_wiring_top](Intan-PCB-Top.png)
+![INTAN_PCB_wiring_top](img/Intan-PCB-Top.png)
 
 ### 3) Programming the MCU on the INTAN PCB
 
