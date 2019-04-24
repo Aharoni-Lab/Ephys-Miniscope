@@ -12,14 +12,14 @@
 
 #Build Directories
 [Dd]ebug/
-[Rr]elease/
+#[Rr]elease/
 
 #Build Results
 *.o
 *.d
 *.eep
-*.elf
-*.hex
+#*.elf
+#*.hex
 *.map
 *.srec
 
