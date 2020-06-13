@@ -47,154 +47,16 @@ F 3 "" H 3700 3575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ephys_PCB_top_updated-rescue:ABM8G-12.000MHZ-4Y-T3-ABM8G-12.000MHZ-4Y-T3 U3
-U 1 1 5EC2C21F
-P 9950 7375
-F 0 "U3" H 9950 7742 50  0000 C CNN
-F 1 "ABM8G-12.000MHZ-4Y-T3" H 9950 7651 50  0000 C CNN
-F 2 "ABM8G-12:OSCSC320X250X100N" H 9950 7375 50  0001 L BNN
-F 3 "" H 9950 7375 50  0001 L BNN
-	1    9950 7375
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x17_Counter_Clockwise J1
 U 1 1 5EBE54C4
 P 1725 2775
 F 0 "J1" H 1775 3792 50  0000 C CNN
 F 1 "34  Circuit Slimslack Connector" H 1775 3700 50  0000 C CNN
-F 2 "Connector_Molex:Molex_SlimStack_55560-0341_2x17_P0.50mm_Vertical" H 1725 2775 50  0001 C CNN
+F 2 ".Connector:SS_5046223412" H 1725 2775 50  0001 C CNN
 F 3 "~" H 1725 2775 50  0001 C CNN
 	1    1725 2775
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2025 1975 2500 1975
-$Comp
-L power:GND #PWR0102
-U 1 1 5EBF14D9
-P 2725 1975
-F 0 "#PWR0102" H 2725 1725 50  0001 C CNN
-F 1 "GND" V 2730 1847 50  0000 R CNN
-F 2 "" H 2725 1975 50  0001 C CNN
-F 3 "" H 2725 1975 50  0001 C CNN
-	1    2725 1975
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2025 2075 2625 2075
-Text Label 2475 2075 0    50   ~ 0
-IN7
-Wire Wire Line
-	2025 2175 2625 2175
-Wire Wire Line
-	2025 2275 2625 2275
-Wire Wire Line
-	2025 2375 2625 2375
-Wire Wire Line
-	2025 2575 2625 2575
-Wire Wire Line
-	2025 2775 2625 2775
-Wire Wire Line
-	2025 3075 2525 3075
-Wire Wire Line
-	2025 3175 2525 3175
-Wire Wire Line
-	2025 3275 2525 3275
-Wire Wire Line
-	2025 3375 2525 3375
-Wire Wire Line
-	2025 3475 2525 3475
-Wire Wire Line
-	2025 3575 2525 3575
-Wire Wire Line
-	1525 2075 975  2075
-Wire Wire Line
-	1525 2175 975  2175
-Wire Wire Line
-	1525 2275 975  2275
-Wire Wire Line
-	1525 2375 975  2375
-Wire Wire Line
-	1525 2475 975  2475
-Wire Wire Line
-	1525 2575 975  2575
-Wire Wire Line
-	1525 2675 975  2675
-Wire Wire Line
-	1525 2775 975  2775
-Wire Wire Line
-	1525 2875 975  2875
-Wire Wire Line
-	1525 2975 975  2975
-Wire Wire Line
-	1525 3075 975  3075
-Wire Wire Line
-	1525 3175 975  3175
-Text Label 2475 2175 0    50   ~ 0
-IN6
-Text Label 2475 2275 0    50   ~ 0
-IN5
-Text Label 2475 2375 0    50   ~ 0
-IN4
-Text Label 2475 2475 0    50   ~ 0
-IN3
-Text Label 2475 2575 0    50   ~ 0
-IN2
-Text Label 2475 2675 0    50   ~ 0
-IN1
-Text Label 2475 2775 0    50   ~ 0
-IN0
-Text Label 2325 2875 0    50   ~ 0
-IN31
-Text Label 2325 2975 0    50   ~ 0
-IN30
-Text Label 2325 3075 0    50   ~ 0
-IN29
-Text Label 2325 3175 0    50   ~ 0
-IN28
-Text Label 2325 3275 0    50   ~ 0
-IN27
-Text Label 2325 3375 0    50   ~ 0
-IN26
-Text Label 2325 3475 0    50   ~ 0
-IN25
-Text Label 2325 3575 0    50   ~ 0
-IN24
-Text Label 650  1975 0    50   ~ 0
-REF_ELEC
-Text Label 975  2075 0    50   ~ 0
-IN8
-Text Label 975  2175 0    50   ~ 0
-IN9
-Text Label 975  2275 0    50   ~ 0
-IN10
-Text Label 975  2375 0    50   ~ 0
-IN11
-Text Label 975  2475 0    50   ~ 0
-IN12
-Text Label 975  2575 0    50   ~ 0
-IN13
-Text Label 975  2675 0    50   ~ 0
-IN14
-Text Label 975  2775 0    50   ~ 0
-IN15
-Text Label 975  2875 0    50   ~ 0
-IN16
-Text Label 975  2975 0    50   ~ 0
-IN17
-Text Label 975  3075 0    50   ~ 0
-IN18
-Text Label 975  3175 0    50   ~ 0
-IN19
-Text Label 975  3275 0    50   ~ 0
-IN20
-Text Label 975  3375 0    50   ~ 0
-IN21
-Text Label 975  3475 0    50   ~ 0
-IN22
-Text Label 975  3575 0    50   ~ 0
-IN23
 Wire Wire Line
 	5700 6700 6550 6700
 Wire Wire Line
@@ -224,246 +86,6 @@ F 3 "" H 5300 7700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4700 6500 4900 6500
-$Comp
-L Ephys_PCB_top_updated-rescue:ATSAMS70N21A-CFNT-ATSAMS7-N21 U1
-U 1 1 5EBE25CC
-P 8975 1050
-F 0 "U1" H 10075 1437 60  0000 C CNN
-F 1 "ATSAMS70N21A-CFNT" H 10075 1331 60  0000 C CNN
-F 2 "ATSAMS70N21ACFNT:ATSAMS70N21A-CFNT" H 10075 1290 60  0001 C CNN
-F 3 "" H 8975 1050 60  0000 C CNN
-	1    8975 1050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8975 2950 8175 2950
-Wire Wire Line
-	8975 4950 8175 4950
-Wire Wire Line
-	8975 5050 8175 5050
-Wire Wire Line
-	11175 5050 12025 5050
-Wire Wire Line
-	8975 4250 8175 4250
-Wire Wire Line
-	8975 3350 8175 3350
-Wire Wire Line
-	8975 3050 8175 3050
-Wire Wire Line
-	11175 4950 12025 4950
-Wire Wire Line
-	8975 5750 8175 5750
-Wire Wire Line
-	8975 3250 8175 3250
-Wire Wire Line
-	8975 2150 8175 2150
-Wire Wire Line
-	8975 1850 8175 1850
-Wire Wire Line
-	8975 1650 8175 1650
-Wire Wire Line
-	8975 4650 8175 4650
-Wire Wire Line
-	8975 4750 8175 4750
-Wire Wire Line
-	11175 4650 12025 4650
-Wire Wire Line
-	8975 2750 8175 2750
-Wire Wire Line
-	8975 3550 8175 3550
-Wire Wire Line
-	11175 4850 12025 4850
-Wire Wire Line
-	8975 5450 8175 5450
-Wire Wire Line
-	8975 1150 8175 1150
-Wire Wire Line
-	8975 1050 8175 1050
-Wire Wire Line
-	8975 3850 8725 3850
-Wire Wire Line
-	8975 3750 8725 3750
-Wire Wire Line
-	8725 3750 8725 3850
-Connection ~ 8725 3850
-Wire Wire Line
-	8725 3850 8175 3850
-Wire Wire Line
-	8975 5250 8725 5250
-Wire Wire Line
-	8975 5950 8775 5950
-Wire Wire Line
-	8975 5850 8775 5850
-Wire Wire Line
-	8775 5850 8775 5950
-Wire Wire Line
-	11175 5950 11175 6300
-Wire Wire Line
-	8975 4050 8725 4050
-Wire Wire Line
-	8975 3150 8725 3150
-Wire Wire Line
-	8975 5150 8725 5150
-Wire Wire Line
-	11175 1950 12075 1950
-Wire Wire Line
-	11175 4350 12025 4350
-Wire Wire Line
-	11175 4450 12025 4450
-Wire Wire Line
-	11175 3450 12025 3450
-Wire Wire Line
-	11175 4250 12025 4250
-Wire Wire Line
-	11175 2650 12025 2650
-Wire Wire Line
-	11175 1550 12075 1550
-Wire Wire Line
-	11175 1350 12075 1350
-Wire Wire Line
-	8975 3650 8175 3650
-Wire Wire Line
-	8975 1950 8175 1950
-Text Label 8175 2950 0    50   ~ 0
-VDDIN
-Text Label 8175 4950 0    50   ~ 0
-VDDPLLUSB
-Text Label 8175 5050 0    50   ~ 0
-VDDUTMII
-Text Label 11575 5050 0    50   ~ 0
-VDDCORE
-Text Label 8175 4250 0    50   ~ 0
-VDDCORE
-Text Label 8175 3350 0    50   ~ 0
-VDDCORE
-Text Label 8175 3250 0    50   ~ 0
-VDDIO
-Text Label 8175 5750 0    50   ~ 0
-VDDIO
-Text Label 11575 4950 0    50   ~ 0
-VDDIO
-Text Label 8175 3050 0    50   ~ 0
-VDDOUT
-Text Label 8175 1850 0    50   ~ 0
-RED_LED
-Text Label 8175 4650 0    50   ~ 0
-TF
-Text Label 8175 4750 0    50   ~ 0
-TK
-Text Label 11575 4650 0    50   ~ 0
-SPI1_NPCS0
-Text Label 8175 2750 0    50   ~ 0
-SDA_I2C
-Text Label 8175 3550 0    50   ~ 0
-SCL_I2C
-Text Label 11575 4850 0    50   ~ 0
-SWDIO
-Text Label 8175 5450 0    50   ~ 0
-SWDCLK
-Text Label 8175 1150 0    50   ~ 0
-XOUT
-Text Label 8175 1050 0    50   ~ 0
-XIN
-$Comp
-L power:GND #PWR0107
-U 1 1 5EE6E8EC
-P 8175 3850
-F 0 "#PWR0107" H 8175 3600 50  0001 C CNN
-F 1 "GND" H 8180 3677 50  0000 C CNN
-F 2 "" H 8175 3850 50  0001 C CNN
-F 3 "" H 8175 3850 50  0001 C CNN
-	1    8175 3850
-	1    0    0    -1  
-$EndComp
-Text Label 11575 1350 0    50   ~ 0
-NRESET
-$Comp
-L power:GND #PWR0109
-U 1 1 5EE703B8
-P 10100 6350
-F 0 "#PWR0109" H 10100 6100 50  0001 C CNN
-F 1 "GND" H 10105 6177 50  0000 C CNN
-F 2 "" H 10100 6350 50  0001 C CNN
-F 3 "" H 10100 6350 50  0001 C CNN
-	1    10100 6350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8725 4050 8725 3850
-$Comp
-L power:GND #PWR0110
-U 1 1 5EE7F82E
-P 8725 3150
-F 0 "#PWR0110" H 8725 2900 50  0001 C CNN
-F 1 "GND" V 8730 3022 50  0000 R CNN
-F 2 "" H 8725 3150 50  0001 C CNN
-F 3 "" H 8725 3150 50  0001 C CNN
-	1    8725 3150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8725 5150 8725 5250
-Connection ~ 8725 5250
-Wire Wire Line
-	8725 5250 8375 5250
-$Comp
-L power:GND #PWR0111
-U 1 1 5EE7086E
-P 8375 5250
-F 0 "#PWR0111" H 8375 5000 50  0001 C CNN
-F 1 "GND" V 8380 5122 50  0000 R CNN
-F 2 "" H 8375 5250 50  0001 C CNN
-F 3 "" H 8375 5250 50  0001 C CNN
-	1    8375 5250
-	0    1    1    0   
-$EndComp
-Text Label 11575 4450 0    50   ~ 0
-SPI0_NPCS1
-Text Label 11575 4350 0    50   ~ 0
-SPI0_NPCS3
-Text Label 11575 3450 0    50   ~ 0
-SPI0_SPCK
-Text Label 11575 4250 0    50   ~ 0
-SPI0_MOSI
-Text Label 11575 2650 0    50   ~ 0
-SPI0_MISO
-Text Label 11575 1550 0    50   ~ 0
-SPI0_NPCS2
-Text Label 8175 3650 0    50   ~ 0
-TD
-Text Label 8175 1650 0    50   ~ 0
-SPI0_NPCS1
-$Comp
-L power:GND #PWR0112
-U 1 1 5EE7F345
-P 8925 1550
-F 0 "#PWR0112" H 8925 1300 50  0001 C CNN
-F 1 "GND" V 8930 1422 50  0000 R CNN
-F 2 "" H 8925 1550 50  0001 C CNN
-F 3 "" H 8925 1550 50  0001 C CNN
-	1    8925 1550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8975 1550 8925 1550
-Text Label 8175 1950 0    50   ~ 0
-LINEVALID
-Wire Wire Line
-	2025 2875 2525 2875
-Wire Wire Line
-	2025 2675 2625 2675
-Wire Wire Line
-	2025 2475 2625 2475
-Wire Wire Line
-	1525 3575 975  3575
-Wire Wire Line
-	1525 3475 975  3475
-Wire Wire Line
-	1525 3375 975  3375
-Wire Wire Line
-	1525 3275 975  3275
-Wire Wire Line
-	2025 2975 2525 2975
 Text Label 5750 1150 1    50   ~ 0
 IN22
 Text Label 5650 1150 1    50   ~ 0
@@ -734,47 +356,45 @@ Text Label 6600 1850 0    50   ~ 0
 IN24
 Text Label 6600 1750 0    50   ~ 0
 IN23
-Text Label 10225 8850 0    50   ~ 0
+Text Label 11300 8700 0    50   ~ 0
 SWDIO
-Text Label 10225 9000 0    50   ~ 0
+Text Label 11300 8850 0    50   ~ 0
 SWDCLK
 $Comp
 L .Capacitor:GRM1555C1H120JA01D C17
 U 1 1 5F012C82
-P 9350 7450
-F 0 "C17" H 9442 7496 50  0000 L CNN
-F 1 "GRM1555C1H120JA01D" H 8960 7620 50  0001 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 9410 7720 50  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61A104ME15-01.pdf" H 9360 7520 50  0001 C CNN
-F 4 "12pF" H 9442 7405 50  0000 L CNN "Note"
-F 5 "0402" H 9460 7270 50  0001 C CNN "Size"
-	1    9350 7450
+P 9125 8525
+F 0 "C17" H 9217 8571 50  0000 L CNN
+F 1 "GRM1555C1H120JA01D" H 8735 8695 50  0001 L CNN
+F 2 "Capacitor_SMD:C_01005_0402Metric" H 9185 8795 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61A104ME15-01.pdf" H 9135 8595 50  0001 C CNN
+F 4 "12pF" H 9217 8480 50  0000 L CNN "Note"
+F 5 "0402" H 9235 8345 50  0001 C CNN "Size"
+	1    9125 8525
 	1    0    0    -1  
 $EndComp
 $Comp
 L .Capacitor:GRM1555C1H120JA01D C18
 U 1 1 5F01F8C7
-P 10525 7450
-F 0 "C18" H 10617 7496 50  0000 L CNN
-F 1 "GRM1555C1H120JA01D" H 10135 7620 50  0001 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 10585 7720 50  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61A104ME15-01.pdf" H 10535 7520 50  0001 C CNN
-F 4 "12pF" H 10617 7405 50  0000 L CNN "Note"
-F 5 "0402" H 10635 7270 50  0001 C CNN "Size"
-	1    10525 7450
+P 9975 8525
+F 0 "C18" H 10067 8571 50  0000 L CNN
+F 1 "GRM1555C1H120JA01D" H 9585 8695 50  0001 L CNN
+F 2 "Capacitor_SMD:C_01005_0402Metric" H 10035 8795 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61A104ME15-01.pdf" H 9985 8595 50  0001 C CNN
+F 4 "12pF" H 10067 8480 50  0000 L CNN "Note"
+F 5 "0402" H 10085 8345 50  0001 C CNN "Size"
+	1    9975 8525
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10350 7475 10350 7650
 $Comp
 L power:GND #PWR0127
 U 1 1 5F0404AB
-P 10350 7725
-F 0 "#PWR0127" H 10350 7475 50  0001 C CNN
-F 1 "GND" H 10355 7552 50  0000 C CNN
-F 2 "" H 10350 7725 50  0001 C CNN
-F 3 "" H 10350 7725 50  0001 C CNN
-	1    10350 7725
+P 9125 8700
+F 0 "#PWR0127" H 9125 8450 50  0001 C CNN
+F 1 "GND" H 9130 8527 50  0000 C CNN
+F 2 "" H 9125 8700 50  0001 C CNN
+F 3 "" H 9125 8700 50  0001 C CNN
+	1    9125 8700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -955,7 +575,7 @@ Wire Wire Line
 Text Label 15350 4250 0    50   ~ 0
 VDDPLL
 Text Label 15350 4900 0    50   ~ 0
-VDDMIC
+VDDUTMIC
 $Comp
 L .Capacitor:GRM033R61A104ME15D C20
 U 1 1 5F291015
@@ -1106,19 +726,6 @@ F 5 "0201" H 14910 1770 50  0001 C CNN "Size"
 	1    14800 1950
 	1    0    0    -1  
 $EndComp
-$Comp
-L .Capacitor:GRM155R60J475ME87D C3
-U 1 1 5F2DFF98
-P 13450 1275
-F 0 "C3" H 13542 1321 50  0000 L CNN
-F 1 "GRM155R60J475ME87D" H 13060 1445 50  0001 L CNN
-F 2 "cap_GRM155R60J475ME47D:GRM155R60J475ME47D" H 13560 1545 50  0001 C CNN
-F 3 "" H 13460 1345 50  0001 C CNN
-F 4 "4.7uF" H 13542 1230 50  0000 L CNN "Note"
-F 5 "0402" H 13560 1095 50  0001 C CNN "Size"
-	1    13450 1275
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	15275 2750 14875 2750
 Wire Wire Line
@@ -1208,19 +815,6 @@ VDDPLLUSB
 Wire Wire Line
 	14875 1075 15375 1075
 $Comp
-L .Capacitor:GRM155R60J475ME87D C1
-U 1 1 5F3CF1C8
-P 14000 1175
-F 0 "C1" H 14092 1221 50  0000 L CNN
-F 1 "GRM155R60J475ME87D" H 13610 1345 50  0001 L CNN
-F 2 "cap_GRM155R60J475ME47D:GRM155R60J475ME47D" H 14110 1445 50  0001 C CNN
-F 3 "" H 14010 1245 50  0001 C CNN
-F 4 "4.7uF" H 14092 1130 50  0000 L CNN "Note"
-F 5 "0402" H 14110 995 50  0001 C CNN "Size"
-	1    14000 1175
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0148
 U 1 1 5F3CFFC2
 P 14000 1275
@@ -1231,15 +825,8 @@ F 3 "" H 14000 1275 50  0001 C CNN
 	1    14000 1275
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14500 1075 14000 1075
-Connection ~ 14000 1075
-Wire Wire Line
-	14000 1075 13825 1075
 Text Label 14150 1075 0    50   ~ 0
 VDDUTMII
-Text Label 8175 2150 0    50   ~ 0
-VDDMIC
 $Comp
 L .Connector:Conn_01x01 J13
 U 1 1 5EDD32EE
@@ -1262,7 +849,6 @@ F 3 "" H 4825 9875 50  0001 C CNN
 	1    4825 9875
 	1    0    0    -1  
 $EndComp
-Connection ~ 4425 9350
 Wire Wire Line
 	4225 9350 4225 9500
 Connection ~ 4225 9350
@@ -1355,17 +941,6 @@ F 3 "~" H 14050 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+1V8 #PWR07
-U 1 1 5F16216E
-P 8175 3050
-F 0 "#PWR07" H 8175 2900 50  0001 C CNN
-F 1 "+1V8" V 8190 3178 50  0001 L CNN
-F 2 "" H 8175 3050 50  0001 C CNN
-F 3 "" H 8175 3050 50  0001 C CNN
-	1    8175 3050
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:+3.3V #PWR08
 U 1 1 5EE2E074
 P 3375 3100
@@ -1446,22 +1021,6 @@ $EndComp
 Wire Wire Line
 	4000 9350 4225 9350
 Wire Wire Line
-	4425 9450 4425 9550
-Wire Wire Line
-	4425 9350 4425 9450
-Connection ~ 4425 9450
-$Comp
-L .Regulator_Linear:TLV7103318DSER U6
-U 1 1 5EDD1904
-P 4725 9450
-F 0 "U6" H 4825 9792 50  0000 C CNN
-F 1 "TLV7103318DSER" H 4825 9701 50  0000 C CNN
-F 2 "TLV7103318DSER_ldo:TLV7103318DSER" H 4725 9750 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/tlv711.pdf" H 4725 9450 50  0001 C CNN
-	1    4725 9450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	4225 9875 4825 9875
 Wire Wire Line
 	4825 9875 4825 9750
@@ -1516,64 +1075,53 @@ Connection ~ 5375 9450
 $Comp
 L power:+1V8 #PWR013
 U 1 1 5F0A42F1
-P 9800 8250
-F 0 "#PWR013" H 9800 8100 50  0001 C CNN
-F 1 "+1V8" H 9815 8423 50  0000 C CNN
-F 2 "" H 9800 8250 50  0001 C CNN
-F 3 "" H 9800 8250 50  0001 C CNN
-	1    9800 8250
+P 10875 8100
+F 0 "#PWR013" H 10875 7950 50  0001 C CNN
+F 1 "+1V8" H 10890 8273 50  0000 C CNN
+F 2 "" H 10875 8100 50  0001 C CNN
+F 3 "" H 10875 8100 50  0001 C CNN
+	1    10875 8100
 	1    0    0    -1  
 $EndComp
 $Comp
 L .Device:R_Small_US R3
 U 1 1 5F0AEBDE
-P 9800 8600
-F 0 "R3" H 9868 8646 50  0000 L CNN
-F 1 "100K" H 9868 8555 50  0000 L CNN
-F 2 ".Resistor:R_0201_0603Metric_ERJ_L" H 9800 8600 50  0001 C CNN
-F 3 "~" H 9800 8600 50  0001 C CNN
-	1    9800 8600
+P 10875 8450
+F 0 "R3" H 10943 8496 50  0000 L CNN
+F 1 "100K" H 10943 8405 50  0000 L CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" H 10875 8450 50  0001 C CNN
+F 3 "~" H 10875 8450 50  0001 C CNN
+	1    10875 8450
 	1    0    0    -1  
 $EndComp
 $Comp
 L .Device:R_Small_US R4
 U 1 1 5F0AFFF3
-P 10125 8600
-F 0 "R4" H 10193 8646 50  0000 L CNN
-F 1 "100K" H 10193 8555 50  0000 L CNN
-F 2 ".Resistor:R_0201_0603Metric_ERJ_L" H 10125 8600 50  0001 C CNN
-F 3 "~" H 10125 8600 50  0001 C CNN
-	1    10125 8600
+P 11200 8450
+F 0 "R4" H 11268 8496 50  0000 L CNN
+F 1 "100K" H 11268 8405 50  0000 L CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" H 11200 8450 50  0001 C CNN
+F 3 "~" H 11200 8450 50  0001 C CNN
+	1    11200 8450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9800 8250 9800 8400
+	10875 8100 10875 8250
 Wire Wire Line
-	9800 8400 10125 8400
+	10875 8250 11200 8250
 Wire Wire Line
-	10125 8400 10125 8500
-Connection ~ 9800 8400
+	11200 8250 11200 8350
+Connection ~ 10875 8250
 Wire Wire Line
-	9800 8400 9800 8500
+	10875 8250 10875 8350
 Wire Wire Line
-	10125 8850 10125 8700
+	11200 8700 11200 8550
 Wire Wire Line
-	9800 8700 9800 9000
+	10875 8550 10875 8850
 Wire Wire Line
-	9800 9000 10500 9000
+	10875 8850 11575 8850
 Wire Wire Line
-	10125 8850 10500 8850
-$Comp
-L .Device:R_Small_US R1
-U 1 1 5F1385AF
-P 1775 1575
-F 0 "R1" V 1570 1575 50  0000 C CNN
-F 1 "0" V 1661 1575 50  0000 C CNN
-F 2 ".Resistor:R_0201_0603Metric_ERJ_L" H 1775 1575 50  0001 C CNN
-F 3 "~" H 1775 1575 50  0001 C CNN
-	1    1775 1575
-	0    1    1    0   
-$EndComp
+	11200 8700 11575 8700
 Wire Wire Line
 	5200 6300 5200 6200
 Wire Wire Line
@@ -1623,27 +1171,6 @@ F 3 "" H 5200 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 5200 6200
-Wire Wire Line
-	9550 7275 9350 7275
-Wire Wire Line
-	9350 7275 9350 7350
-Wire Wire Line
-	9350 7550 9350 7650
-Wire Wire Line
-	9350 7650 10350 7650
-Connection ~ 10350 7650
-Wire Wire Line
-	10350 7650 10350 7725
-Wire Wire Line
-	10350 7275 10525 7275
-Wire Wire Line
-	10525 7275 10525 7350
-Wire Wire Line
-	10525 7550 10525 7650
-Wire Wire Line
-	10525 7650 10350 7650
-Text Notes 8850 6950 0    50   Italic 10
-Should have overlapping pins (pins 2 and 4) in the schematic
 $Comp
 L .Device:R_Small_US R5
 U 1 1 5F2BFE4C
@@ -1745,24 +1272,6 @@ Connection ~ 14800 2050
 Connection ~ 13975 2550
 Wire Wire Line
 	13975 2550 14325 2550
-Text Notes 12900 3375 0    50   Italic 10
-You had 1.8V connected to VDDOUT which I don't think is correct.
-Wire Wire Line
-	2500 1975 2500 1575
-Wire Wire Line
-	2500 1575 1875 1575
-Connection ~ 2500 1975
-Wire Wire Line
-	2500 1975 2725 1975
-Wire Wire Line
-	650  1975 1075 1975
-Wire Wire Line
-	1075 1575 1075 1975
-Wire Wire Line
-	1075 1575 1675 1575
-Connection ~ 1075 1975
-Wire Wire Line
-	1075 1975 1525 1975
 Wire Notes Line
 	3525 8875 6325 8875
 Wire Notes Line
@@ -1790,8 +1299,6 @@ Wire Notes Line
 Wire Notes Line
 	3100 1150 3100 3900
 Wire Notes Line
-	3100 3900 575  3900
-Wire Notes Line
 	575  3900 575  1150
 Wire Notes Line
 	3225 800  7025 800 
@@ -1813,14 +1320,424 @@ Wire Notes Line
 	12750 9000 12750 7200
 Text Notes 12775 7300 0    50   ~ 0
 Connectors
+$Comp
+L .Oscillator:ABM8G-12.000MHZ-4Y-T3 Y1
+U 1 1 5EE5B53F
+P 9550 8425
+F 0 "Y1" H 9694 8471 50  0000 L CNN
+F 1 "ABM8G-12.000MHZ-4Y-T3" H 9300 8600 50  0000 L CNN
+F 2 ".Oscillator:OSCCC320X250X100L80X100" H 9500 8500 50  0001 C CNN
+F 3 "https://abracon.com/Resonators/ABM8G.pdf" H 9550 8425 50  0001 C CNN
+	1    9550 8425
+	1    0    0    -1  
+$EndComp
+$Comp
+L .MCU:ATSAME70N21A-CN U1
+U 1 1 5EE63A41
+P 10250 4625
+F 0 "U1" H 11125 1850 50  0000 C CNN
+F 1 "ATSAME70N21A-CN" H 11175 1725 50  0000 C CNN
+F 2 ".Package_BGA:BGA_100_CP80_10X10_900X900X110B40L" H 10150 4525 50  0001 C CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589960" H 10250 4625 50  0001 C CNN
+	1    10250 4625
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	11175 6300 10100 6300
+	9450 8425 9125 8425
 Wire Wire Line
-	10100 6300 10100 6350
+	9550 8550 9550 8700
 Wire Wire Line
-	8775 5950 8775 6300
+	9550 8700 9125 8700
 Wire Wire Line
-	8775 6300 10100 6300
-Connection ~ 8775 5950
-Connection ~ 10100 6300
+	9125 8700 9125 8625
+Wire Wire Line
+	9975 8425 9650 8425
+Wire Wire Line
+	9975 8625 9975 8700
+Wire Wire Line
+	9975 8700 9550 8700
+Connection ~ 9550 8700
+Wire Wire Line
+	9550 8300 10300 8300
+Wire Wire Line
+	10300 8300 10300 8700
+Wire Wire Line
+	10300 8700 9975 8700
+Connection ~ 9975 8700
+Connection ~ 9125 8700
+Wire Wire Line
+	9800 1325 9700 1325
+Connection ~ 9700 1325
+Wire Wire Line
+	9700 1325 9600 1325
+Wire Wire Line
+	9600 1325 9600 800 
+Connection ~ 9600 1325
+Wire Wire Line
+	10200 1325 10100 1325
+Connection ~ 10100 1325
+Wire Wire Line
+	10100 1325 10000 1325
+Wire Wire Line
+	10000 1325 10000 800 
+Connection ~ 10000 1325
+Wire Wire Line
+	10450 1325 10450 800 
+Wire Wire Line
+	10550 1325 10550 800 
+Wire Wire Line
+	10650 1325 10650 800 
+Wire Wire Line
+	10750 1325 10750 800 
+Wire Wire Line
+	10850 1325 10850 800 
+Wire Wire Line
+	10950 1325 10950 800 
+Text Label 9600 1175 1    50   ~ 0
+VDDCORE
+Text Label 10000 1125 1    50   ~ 0
+VDDIO
+Text Label 10450 1125 1    50   ~ 0
+VDDOUT
+Text Label 10750 1125 1    50   ~ 0
+VDDUTMIC
+Wire Wire Line
+	9000 5725 8525 5725
+Wire Wire Line
+	9000 5625 8525 5625
+Text Label 8525 5625 0    50   ~ 0
+XOUT
+Text Label 8525 5725 0    50   ~ 0
+XIN
+Text Label 10950 1125 1    50   ~ 0
+VDDPLLUSB
+Text Label 10850 1125 1    50   ~ 0
+VDDUTMII
+Text Label 10550 1125 1    50   ~ 0
+VDDIN
+Text Label 10650 1125 1    50   ~ 0
+VDDPLL
+Wire Wire Line
+	10750 7525 10650 7525
+Connection ~ 10000 7525
+Wire Wire Line
+	10000 7525 9900 7525
+Connection ~ 10100 7525
+Wire Wire Line
+	10100 7525 10000 7525
+Connection ~ 10200 7525
+Wire Wire Line
+	10200 7525 10100 7525
+Connection ~ 10450 7525
+Wire Wire Line
+	10450 7525 10325 7525
+Connection ~ 10550 7525
+Wire Wire Line
+	10550 7525 10450 7525
+Connection ~ 10650 7525
+Wire Wire Line
+	10650 7525 10550 7525
+$Comp
+L power:GND #PWR0104
+U 1 1 5F065B72
+P 10325 7525
+F 0 "#PWR0104" H 10325 7275 50  0001 C CNN
+F 1 "GND" H 10330 7352 50  0000 C CNN
+F 2 "" H 10325 7525 50  0001 C CNN
+F 3 "" H 10325 7525 50  0001 C CNN
+	1    10325 7525
+	1    0    0    -1  
+$EndComp
+Connection ~ 10325 7525
+Wire Wire Line
+	10325 7525 10200 7525
+Wire Wire Line
+	9000 4625 8525 4625
+Wire Wire Line
+	9000 4425 8525 4425
+Text Label 8525 4425 0    50   ~ 0
+RED_LED
+Text Label 8525 4625 0    50   ~ 0
+SPI0_NPCS1
+Wire Wire Line
+	9000 4825 8525 4825
+Wire Wire Line
+	9000 4925 8525 4925
+Wire Wire Line
+	9000 5025 8525 5025
+Wire Wire Line
+	9000 5225 8525 5225
+Wire Wire Line
+	9000 5325 8525 5325
+Wire Wire Line
+	9000 5425 8525 5425
+Wire Wire Line
+	9000 5525 8525 5525
+Text Label 8525 4825 0    50   ~ 0
+TF
+Text Label 8525 4925 0    50   ~ 0
+TK
+Text Label 8525 5025 0    50   ~ 0
+SPI0_NPCS0
+Text Label 8525 5225 0    50   ~ 0
+SDA_I2C
+Text Label 8525 5325 0    50   ~ 0
+SCL_I2C
+Text Label 8525 5425 0    50   ~ 0
+SWDIO
+Text Label 8525 5525 0    50   ~ 0
+SWDCLK
+Wire Wire Line
+	9000 7125 9000 7025
+Wire Wire Line
+	9000 7125 9000 7525
+Wire Wire Line
+	9000 7525 9900 7525
+Connection ~ 9000 7125
+Connection ~ 9900 7525
+Wire Wire Line
+	9000 6525 8525 6525
+Text Label 8525 6525 0    50   ~ 0
+NRESET
+Wire Wire Line
+	11875 3925 11400 3925
+Wire Wire Line
+	11875 4125 11400 4125
+Wire Wire Line
+	11875 4925 11400 4925
+Wire Wire Line
+	11875 5025 11400 5025
+Wire Wire Line
+	11875 5125 11400 5125
+Text Label 11875 3925 2    50   ~ 0
+TD
+Text Label 11875 4125 2    50   ~ 0
+SPI0_NPCS2
+Text Label 11875 4925 2    50   ~ 0
+SPI0_MISO
+Text Label 11875 5025 2    50   ~ 0
+SPI0_MOSI
+Text Label 11875 5125 2    50   ~ 0
+SPI0_SPCK
+Wire Wire Line
+	11875 5325 11400 5325
+Wire Wire Line
+	11875 5525 11400 5525
+Text Label 11875 5325 2    50   ~ 0
+SPI0_NPCS1
+Text Label 11875 5525 2    50   ~ 0
+SPI0_NPCS3
+$Comp
+L .Device:C_Small C3
+U 1 1 5F3006DA
+P 13450 1275
+F 0 "C3" H 13542 1321 50  0000 L CNN
+F 1 "4.7uF" H 13542 1230 50  0000 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 13450 1275 50  0001 C CNN
+F 3 "~" H 13450 1275 50  0001 C CNN
+	1    13450 1275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13825 1075 14000 1075
+$Comp
+L .Device:C_Small C1
+U 1 1 5F3042D1
+P 14000 1175
+F 0 "C1" H 14092 1221 50  0000 L CNN
+F 1 "4.7uF" H 14092 1130 50  0000 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 14000 1175 50  0001 C CNN
+F 3 "~" H 14000 1175 50  0001 C CNN
+	1    14000 1175
+	1    0    0    -1  
+$EndComp
+Connection ~ 14000 1075
+Wire Wire Line
+	14000 1075 14500 1075
+$Comp
+L .Regulator_Linear:TLV7103318DSER U3
+U 1 1 5F3083DC
+P 4725 9450
+F 0 "U3" H 4825 9792 50  0000 C CNN
+F 1 "TLV7103318DSER" H 4825 9701 50  0000 C CNN
+F 2 ".Package_SON:SON_6_P50_150X150X80L50X25L" H 4725 9750 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv711.pdf" H 4725 9450 50  0001 C CNN
+	1    4725 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4425 9350 4425 9450
+Connection ~ 4425 9350
+Wire Notes Line
+	3100 4125 575  4125
+Wire Wire Line
+	1525 3175 975  3175
+Wire Wire Line
+	1525 3275 975  3275
+Wire Wire Line
+	1525 3375 975  3375
+Wire Wire Line
+	1525 3475 975  3475
+Text Label 975  3475 0    50   ~ 0
+IN23
+Text Label 975  3375 0    50   ~ 0
+IN22
+Text Label 975  3275 0    50   ~ 0
+IN21
+Text Label 975  3175 0    50   ~ 0
+IN20
+Text Label 975  3075 0    50   ~ 0
+IN19
+Text Label 975  2975 0    50   ~ 0
+IN18
+Text Label 975  2875 0    50   ~ 0
+IN17
+Text Label 975  2775 0    50   ~ 0
+IN16
+Text Label 975  2675 0    50   ~ 0
+IN15
+Text Label 975  2575 0    50   ~ 0
+IN14
+Text Label 975  2475 0    50   ~ 0
+IN13
+Text Label 975  2375 0    50   ~ 0
+IN12
+Text Label 975  2275 0    50   ~ 0
+IN11
+Text Label 975  2175 0    50   ~ 0
+IN10
+Text Label 975  2075 0    50   ~ 0
+IN9
+Text Label 975  1975 0    50   ~ 0
+IN8
+Wire Wire Line
+	1525 3075 975  3075
+Wire Wire Line
+	1525 2975 975  2975
+Wire Wire Line
+	1525 2875 975  2875
+Wire Wire Line
+	1525 2775 975  2775
+Wire Wire Line
+	1525 2675 975  2675
+Wire Wire Line
+	1525 2575 975  2575
+Wire Wire Line
+	1525 2475 975  2475
+Wire Wire Line
+	1525 2375 975  2375
+Wire Wire Line
+	1525 2275 975  2275
+Wire Wire Line
+	1525 2175 975  2175
+Wire Wire Line
+	1525 2075 975  2075
+Wire Wire Line
+	1525 1975 975  1975
+Wire Wire Line
+	2025 2875 2525 2875
+Wire Wire Line
+	2025 2375 2625 2375
+Wire Wire Line
+	2025 2575 2625 2575
+Wire Wire Line
+	2025 2775 2525 2775
+Text Label 2325 3475 0    50   ~ 0
+IN24
+Text Label 2325 3375 0    50   ~ 0
+IN25
+Text Label 2325 3275 0    50   ~ 0
+IN26
+Text Label 2325 3175 0    50   ~ 0
+IN27
+Text Label 2325 3075 0    50   ~ 0
+IN28
+Text Label 2325 2975 0    50   ~ 0
+IN29
+Text Label 2325 2875 0    50   ~ 0
+IN30
+Text Label 2325 2775 0    50   ~ 0
+IN31
+Text Label 2475 2675 0    50   ~ 0
+IN0
+Text Label 2475 2575 0    50   ~ 0
+IN1
+Text Label 2475 2475 0    50   ~ 0
+IN2
+Text Label 2475 2375 0    50   ~ 0
+IN3
+Text Label 2475 2275 0    50   ~ 0
+IN4
+Text Label 2475 2175 0    50   ~ 0
+IN5
+Text Label 2475 2075 0    50   ~ 0
+IN6
+Wire Wire Line
+	2025 3475 2525 3475
+Wire Wire Line
+	2025 3375 2525 3375
+Wire Wire Line
+	2025 3275 2525 3275
+Wire Wire Line
+	2025 3175 2525 3175
+Wire Wire Line
+	2025 3075 2525 3075
+Wire Wire Line
+	2025 2975 2525 2975
+Wire Wire Line
+	2025 2675 2625 2675
+Wire Wire Line
+	2025 2475 2625 2475
+Wire Wire Line
+	2025 2275 2625 2275
+Wire Wire Line
+	2025 2175 2625 2175
+Wire Wire Line
+	2025 2075 2625 2075
+Text Label 2475 1975 0    50   ~ 0
+IN7
+Wire Wire Line
+	2025 1975 2625 1975
+$Comp
+L .Device:R_Small_US R1
+U 1 1 5F1385AF
+P 1775 3975
+F 0 "R1" V 1570 3975 50  0000 C CNN
+F 1 "0" V 1661 3975 50  0000 C CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" H 1775 3975 50  0001 C CNN
+F 3 "~" H 1775 3975 50  0001 C CNN
+	1    1775 3975
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 3575 2525 3575
+Connection ~ 2150 3575
+Wire Wire Line
+	2150 3975 2150 3575
+Wire Wire Line
+	1875 3975 2150 3975
+Wire Wire Line
+	2025 3575 2150 3575
+Text Label 2525 3575 2    50   ~ 0
+REF_ELEC
+Wire Wire Line
+	1300 3575 975  3575
+Connection ~ 1300 3575
+Wire Wire Line
+	1300 3975 1675 3975
+Wire Wire Line
+	1300 3575 1300 3975
+Wire Wire Line
+	1525 3575 1300 3575
+$Comp
+L power:GND #PWR0102
+U 1 1 5EBF14D9
+P 975 3575
+F 0 "#PWR0102" H 975 3325 50  0001 C CNN
+F 1 "GND" V 980 3447 50  0000 R CNN
+F 2 "" H 975 3575 50  0001 C CNN
+F 3 "" H 975 3575 50  0001 C CNN
+	1    975  3575
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
