@@ -1,4 +1,4 @@
-update=6/12/2020 9:48:04 PM
+update=6/12/2020 9:55:12 PM
 version=1
 last_client=kicad
 [general]
@@ -26,8 +26,8 @@ ERC_TestSimilarLabels=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=Ephys_PCB_top_updated.net
-CopperLayerCount=2
-BoardThickness=1.6
+CopperLayerCount=6
+BoardThickness=0.8
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
@@ -86,19 +86,19 @@ Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In4.Cu]
 Name=In4.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In5.Cu]
 Name=In5.Cu
 Type=0
