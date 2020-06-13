@@ -1571,133 +1571,133 @@ Connection ~ 4425 9350
 Wire Notes Line
 	3100 4125 575  4125
 Wire Wire Line
-	2575 3175 2025 3175
+	1525 3175 975  3175
 Wire Wire Line
-	2575 3275 2025 3275
+	1525 3275 975  3275
 Wire Wire Line
-	2575 3375 2025 3375
+	1525 3375 975  3375
 Wire Wire Line
-	2575 3475 2025 3475
-Text Label 2025 3475 0    50   ~ 0
+	1525 3475 975  3475
+Text Label 975  3475 0    50   ~ 0
 IN23
-Text Label 2025 3375 0    50   ~ 0
+Text Label 975  3375 0    50   ~ 0
 IN22
-Text Label 2025 3275 0    50   ~ 0
+Text Label 975  3275 0    50   ~ 0
 IN21
-Text Label 2025 3175 0    50   ~ 0
+Text Label 975  3175 0    50   ~ 0
 IN20
-Text Label 2025 3075 0    50   ~ 0
+Text Label 975  3075 0    50   ~ 0
 IN19
-Text Label 2025 2975 0    50   ~ 0
+Text Label 975  2975 0    50   ~ 0
 IN18
-Text Label 2025 2875 0    50   ~ 0
+Text Label 975  2875 0    50   ~ 0
 IN17
-Text Label 2025 2775 0    50   ~ 0
+Text Label 975  2775 0    50   ~ 0
 IN16
-Text Label 2025 2675 0    50   ~ 0
+Text Label 975  2675 0    50   ~ 0
 IN15
-Text Label 2025 2575 0    50   ~ 0
+Text Label 975  2575 0    50   ~ 0
 IN14
-Text Label 2025 2475 0    50   ~ 0
+Text Label 975  2475 0    50   ~ 0
 IN13
-Text Label 2025 2375 0    50   ~ 0
+Text Label 975  2375 0    50   ~ 0
 IN12
-Text Label 2025 2275 0    50   ~ 0
+Text Label 975  2275 0    50   ~ 0
 IN11
-Text Label 2025 2175 0    50   ~ 0
+Text Label 975  2175 0    50   ~ 0
 IN10
-Text Label 2025 2075 0    50   ~ 0
+Text Label 975  2075 0    50   ~ 0
 IN9
-Text Label 2025 1975 0    50   ~ 0
+Text Label 975  1975 0    50   ~ 0
 IN8
 Wire Wire Line
-	2575 3075 2025 3075
+	1525 3075 975  3075
 Wire Wire Line
-	2575 2975 2025 2975
+	1525 2975 975  2975
 Wire Wire Line
-	2575 2875 2025 2875
+	1525 2875 975  2875
 Wire Wire Line
-	2575 2775 2025 2775
+	1525 2775 975  2775
 Wire Wire Line
-	2575 2675 2025 2675
+	1525 2675 975  2675
 Wire Wire Line
-	2575 2575 2025 2575
+	1525 2575 975  2575
 Wire Wire Line
-	2575 2475 2025 2475
+	1525 2475 975  2475
 Wire Wire Line
-	2575 2375 2025 2375
+	1525 2375 975  2375
 Wire Wire Line
-	2575 2275 2025 2275
+	1525 2275 975  2275
 Wire Wire Line
-	2575 2175 2025 2175
+	1525 2175 975  2175
 Wire Wire Line
-	2575 2075 2025 2075
+	1525 2075 975  2075
 Wire Wire Line
-	2575 1975 2025 1975
+	1525 1975 975  1975
 Wire Wire Line
-	1025 2875 1525 2875
+	2025 2875 2525 2875
 Wire Wire Line
-	925  2375 1525 2375
+	2025 2375 2625 2375
 Wire Wire Line
-	925  2575 1525 2575
+	2025 2575 2625 2575
 Wire Wire Line
-	1025 2775 1525 2775
-Text Label 1325 3475 0    50   ~ 0
+	2025 2775 2525 2775
+Text Label 2325 3475 0    50   ~ 0
 IN24
-Text Label 1325 3375 0    50   ~ 0
+Text Label 2325 3375 0    50   ~ 0
 IN25
-Text Label 1325 3275 0    50   ~ 0
+Text Label 2325 3275 0    50   ~ 0
 IN26
-Text Label 1325 3175 0    50   ~ 0
+Text Label 2325 3175 0    50   ~ 0
 IN27
-Text Label 1325 3075 0    50   ~ 0
+Text Label 2325 3075 0    50   ~ 0
 IN28
-Text Label 1325 2975 0    50   ~ 0
+Text Label 2325 2975 0    50   ~ 0
 IN29
-Text Label 1325 2875 0    50   ~ 0
+Text Label 2325 2875 0    50   ~ 0
 IN30
-Text Label 1325 2775 0    50   ~ 0
+Text Label 2325 2775 0    50   ~ 0
 IN31
-Text Label 1375 2675 0    50   ~ 0
+Text Label 2475 2675 0    50   ~ 0
 IN0
-Text Label 1375 2575 0    50   ~ 0
+Text Label 2475 2575 0    50   ~ 0
 IN1
-Text Label 1375 2475 0    50   ~ 0
+Text Label 2475 2475 0    50   ~ 0
 IN2
-Text Label 1375 2375 0    50   ~ 0
+Text Label 2475 2375 0    50   ~ 0
 IN3
-Text Label 1375 2275 0    50   ~ 0
+Text Label 2475 2275 0    50   ~ 0
 IN4
-Text Label 1375 2175 0    50   ~ 0
+Text Label 2475 2175 0    50   ~ 0
 IN5
-Text Label 1375 2075 0    50   ~ 0
+Text Label 2475 2075 0    50   ~ 0
 IN6
 Wire Wire Line
-	1025 3475 1525 3475
+	2025 3475 2525 3475
 Wire Wire Line
-	1025 3375 1525 3375
+	2025 3375 2525 3375
 Wire Wire Line
-	1025 3275 1525 3275
+	2025 3275 2525 3275
 Wire Wire Line
-	1025 3175 1525 3175
+	2025 3175 2525 3175
 Wire Wire Line
-	1025 3075 1525 3075
+	2025 3075 2525 3075
 Wire Wire Line
-	1025 2975 1525 2975
+	2025 2975 2525 2975
 Wire Wire Line
-	925  2675 1525 2675
+	2025 2675 2625 2675
 Wire Wire Line
-	925  2475 1525 2475
+	2025 2475 2625 2475
 Wire Wire Line
-	925  2275 1525 2275
+	2025 2275 2625 2275
 Wire Wire Line
-	925  2175 1525 2175
+	2025 2175 2625 2175
 Wire Wire Line
-	925  2075 1525 2075
-Text Label 1375 1975 0    50   ~ 0
+	2025 2075 2625 2075
+Text Label 2475 1975 0    50   ~ 0
 IN7
 Wire Wire Line
-	925  1975 1525 1975
+	2025 1975 2625 1975
 $Comp
 L .Device:R_Small_US R1
 U 1 1 5F1385AF
@@ -1718,7 +1718,7 @@ Wire Wire Line
 	1875 3975 2150 3975
 Wire Wire Line
 	2025 3575 2150 3575
-Text Label 975  3575 0    50   ~ 0
+Text Label 2525 3575 2    50   ~ 0
 REF_ELEC
 Wire Wire Line
 	1300 3575 975  3575
@@ -1732,12 +1732,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0102
 U 1 1 5EBF14D9
-P 2525 3575
-F 0 "#PWR0102" H 2525 3325 50  0001 C CNN
-F 1 "GND" V 2530 3447 50  0000 R CNN
-F 2 "" H 2525 3575 50  0001 C CNN
-F 3 "" H 2525 3575 50  0001 C CNN
-	1    2525 3575
-	0    -1   -1   0   
+P 975 3575
+F 0 "#PWR0102" H 975 3325 50  0001 C CNN
+F 1 "GND" V 980 3447 50  0000 R CNN
+F 2 "" H 975 3575 50  0001 C CNN
+F 3 "" H 975 3575 50  0001 C CNN
+	1    975  3575
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
