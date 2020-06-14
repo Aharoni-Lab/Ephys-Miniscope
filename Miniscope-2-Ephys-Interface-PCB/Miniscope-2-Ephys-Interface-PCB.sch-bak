@@ -1,0 +1,126 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L .Connector:Conn_01x01 J2
+U 1 1 5EE58C67
+P 6100 4475
+F 0 "J2" H 6180 4517 50  0000 L CNN
+F 1 "Conn_01x01" H 6180 4426 50  0000 L CNN
+F 2 ".Connector:Spring_2306654_3" H 6100 4475 50  0001 C CNN
+F 3 "~" H 6100 4475 50  0001 C CNN
+	1    6100 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L .Connector:Conn_01x01 J4
+U 1 1 5EE59E08
+P 6100 4575
+F 0 "J4" H 6180 4617 50  0000 L CNN
+F 1 "Conn_01x01" H 6180 4526 50  0000 L CNN
+F 2 ".Connector:Spring_2306654_3" H 6100 4575 50  0001 C CNN
+F 3 "~" H 6100 4575 50  0001 C CNN
+	1    6100 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L .Connector:Conn_01x01 J6
+U 1 1 5EE59FD0
+P 6100 4675
+F 0 "J6" H 6180 4717 50  0000 L CNN
+F 1 "Conn_01x01" H 6180 4626 50  0000 L CNN
+F 2 ".Connector:Spring_2306654_3" H 6100 4675 50  0001 C CNN
+F 3 "~" H 6100 4675 50  0001 C CNN
+	1    6100 4675
+	1    0    0    -1  
+$EndComp
+$Comp
+L .Connector:Conn_01x01 J8
+U 1 1 5EE5A16A
+P 6100 4775
+F 0 "J8" H 6180 4817 50  0000 L CNN
+F 1 "Conn_01x01" H 6180 4726 50  0000 L CNN
+F 2 ".Connector:Spring_2306654_3" H 6100 4775 50  0001 C CNN
+F 3 "~" H 6100 4775 50  0001 C CNN
+	1    6100 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L .Connector:Conn_01x01 J10
+U 1 1 5EE5A3A1
+P 6100 4875
+F 0 "J10" H 6180 4917 50  0000 L CNN
+F 1 "Conn_01x01" H 6180 4826 50  0000 L CNN
+F 2 ".Connector:Spring_2306654_3" H 6100 4875 50  0001 C CNN
+F 3 "~" H 6100 4875 50  0001 C CNN
+	1    6100 4875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5525 4875 5700 4875
+Wire Wire Line
+	5525 4775 5900 4775
+Wire Wire Line
+	5525 4675 5900 4675
+Wire Wire Line
+	5525 4575 5900 4575
+Wire Wire Line
+	5525 4475 5725 4475
+$Comp
+L power:+5V #PWR0101
+U 1 1 5EE5ECC2
+P 5725 4475
+F 0 "#PWR0101" H 5725 4325 50  0001 C CNN
+F 1 "+5V" H 5740 4648 50  0000 C CNN
+F 2 "" H 5725 4475 50  0001 C CNN
+F 3 "" H 5725 4475 50  0001 C CNN
+	1    5725 4475
+	1    0    0    -1  
+$EndComp
+Connection ~ 5725 4475
+Wire Wire Line
+	5725 4475 5900 4475
+$Comp
+L power:GND #PWR0102
+U 1 1 5EE5F281
+P 5700 4875
+F 0 "#PWR0102" H 5700 4625 50  0001 C CNN
+F 1 "GND" H 5705 4702 50  0000 C CNN
+F 2 "" H 5700 4875 50  0001 C CNN
+F 3 "" H 5700 4875 50  0001 C CNN
+	1    5700 4875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4875 5900 4875
+Text Label 5700 4575 0    50   ~ 0
+TD
+Text Label 5700 4675 0    50   ~ 0
+TF
+Text Label 5700 4775 0    50   ~ 0
+TK
+$Comp
+L Connector_Generic:Conn_01x05 J?
+U 1 1 5EE6194A
+P 5325 4675
+F 0 "J?" H 5243 4250 50  0000 C CNN
+F 1 "Conn_01x05" H 5243 4341 50  0000 C CNN
+F 2 ".Connector:B2B_Flex_05_Dual_Row_38milx24mil_Hole_20mil_small" H 5325 4675 50  0001 C CNN
+F 3 "~" H 5325 4675 50  0001 C CNN
+	1    5325 4675
+	-1   0    0    1   
+$EndComp
+Connection ~ 5700 4875
+$EndSCHEMATC
