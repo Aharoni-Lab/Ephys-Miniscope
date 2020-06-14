@@ -972,8 +972,8 @@ Wire Wire Line
 	6825 2925 6825 3050
 Wire Wire Line
 	6350 3050 6825 3050
-Text Notes 4425 3500 0    50   Italic 10
-Should CENTER be connected to GND?
+Text Notes 4950 4900 0    50   Italic 10
+Center pad in footprint needs to be removed
 $Comp
 L power:+3.3V #PWR09
 U 1 1 5EEBDC42
@@ -1742,4 +1742,6 @@ Wire Wire Line
 	10150 9625 10150 9775
 Wire Wire Line
 	10150 9975 10150 10225
+Text Notes 8700 8150 0    50   Italic 10
+A smaller Crystal exists (2.5mm x 2mm)
 $EndSCHEMATC

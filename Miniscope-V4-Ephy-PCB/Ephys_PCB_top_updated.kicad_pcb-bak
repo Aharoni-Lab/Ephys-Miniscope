@@ -650,7 +650,7 @@
   )
 
   (module LED_SMD:LED_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EE58A2C)
-    (at 110.4 99.1)
+    (at 90.65 105.85)
     (descr "LED SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags LED)
     (path /5F58077D)
@@ -687,7 +687,7 @@
   )
 
   (module .Oscillator:OSCCC320X250X100L80X100 (layer F.Cu) (tedit 5CAF08DE) (tstamp 5EE47255)
-    (at 130.3 87.9)
+    (at 108.05 92.65)
     (descr "Oscillator, Corner Concave; 3.20 mm L X 2.50 mm W X 1.00 mm H body")
     (path /5EE5B53F)
     (attr smd)
@@ -749,7 +749,7 @@
   )
 
   (module Package_DFN_QFN:Texas_R_PUQFN-N12 (layer F.Cu) (tedit 5A0AA2C1) (tstamp 5EE58BCC)
-    (at 113.5 91.6)
+    (at 107.25 99.6)
     (descr "Texas_R_PUQFN-N12 http://www.ti.com/lit/ds/symlink/txb0104.pdf")
     (tags Texas_R_PUQFN-N12)
     (path /5EBF398D)
@@ -808,7 +808,7 @@
   )
 
   (module .Package_SON:SON_6_P50_150X150X80L50X25L (layer F.Cu) (tedit 5C9E9716) (tstamp 5EE471FC)
-    (at 115.45 67.05)
+    (at 91.45 81.8)
     (descr "Small Outline No-Lead (SON), 0.50 mm pitch; 6 pin, 1.50 mm L X 1.50 mm W X 0.80 mm H body")
     (path /5F3083DC)
     (attr smd)
@@ -890,7 +890,7 @@
   )
 
   (module .Package_BGA:BGA_100_CP80_10X10_900X900X110B40L (layer B.Cu) (tedit 5CAF092F) (tstamp 5EE47162)
-    (at 127.5 74.7)
+    (at 101.5 80.5)
     (descr "Ball Grid Array (BGA), 0.80 mm pitch, square; 100 pin, 9.00 mm L X 9.00 mm W X 1.10 mm H body")
     (path /5EE63A41)
     (attr smd)
@@ -1234,7 +1234,7 @@
   )
 
   (module .Resistor:R_0201_0603Metric_ERJ_L (layer F.Cu) (tedit 5D79AF55) (tstamp 5EE4707E)
-    (at 110.225 100)
+    (at 90.475 106.75)
     (descr "Resistor, Chip; 0.60 mm L X 0.30 mm W X 0.26 mm H body")
     (path /5F2BFE4C)
     (attr smd)
@@ -1282,7 +1282,7 @@
   )
 
   (module .Resistor:R_0201_0603Metric_ERJ_L (layer F.Cu) (tedit 5D79AF55) (tstamp 5EE47060)
-    (at 137.4 65.7)
+    (at 105.9 72.95)
     (descr "Resistor, Chip; 0.60 mm L X 0.30 mm W X 0.26 mm H body")
     (path /5F0AFFF3)
     (attr smd)
@@ -1330,7 +1330,7 @@
   )
 
   (module .Resistor:R_0201_0603Metric_ERJ_L (layer F.Cu) (tedit 5D79AF55) (tstamp 5EE5AB2D)
-    (at 139.6 65.6)
+    (at 108.1 72.85)
     (descr "Resistor, Chip; 0.60 mm L X 0.30 mm W X 0.26 mm H body")
     (path /5F0AEBDE)
     (attr smd)
@@ -1378,7 +1378,7 @@
   )
 
   (module .Resistor:R_0201_0603Metric_ERJ_L (layer F.Cu) (tedit 5D79AF55) (tstamp 5EE58B76)
-    (at 112.5 89.9)
+    (at 106.25 97.9)
     (descr "Resistor, Chip; 0.60 mm L X 0.30 mm W X 0.26 mm H body")
     (path /5F15756A)
     (attr smd)
@@ -1474,7 +1474,7 @@
   )
 
   (module Inductor_SMD:L_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EE46FE8)
-    (at 127.8 99.7)
+    (at 101.3 105.45)
     (descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags inductor)
     (path /5F255639)
@@ -1510,7 +1510,7 @@
   )
 
   (module Inductor_SMD:L_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EE46FD7)
-    (at 117.26 97.86)
+    (at 96.01 105.86)
     (descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags inductor)
     (path /5F2570A5)
@@ -1546,7 +1546,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_1.0x1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5EE46FC6)
-    (at 124.6 64.3)
+    (at 93.1 71.55)
     (descr "SMD rectangular pad as test Point, square 1.0mm side length")
     (tags "test point SMD pad rectangle square")
     (path /5EDD32EE)
@@ -1573,7 +1573,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_1.0x1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5EE5AB9B)
-    (at 139.6 64.3)
+    (at 108.1 71.55)
     (descr "SMD rectangular pad as test Point, square 1.0mm side length")
     (tags "test point SMD pad rectangle square")
     (path /5F1B9B4A)
@@ -1600,7 +1600,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_1.0x1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5EE5ACEF)
-    (at 137.7 64.3)
+    (at 106.2 71.55)
     (descr "SMD rectangular pad as test Point, square 1.0mm side length")
     (tags "test point SMD pad rectangle square")
     (path /5F1B921E)
@@ -1627,7 +1627,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_1.0x1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5EE46F9C)
-    (at 132.1 64.2)
+    (at 100.6 71.45)
     (descr "SMD rectangular pad as test Point, square 1.0mm side length")
     (tags "test point SMD pad rectangle square")
     (path /5F1115F2)
@@ -1654,7 +1654,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_1.0x1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5EE46F8E)
-    (at 126.5 64.3)
+    (at 95 71.55)
     (descr "SMD rectangular pad as test Point, square 1.0mm side length")
     (tags "test point SMD pad rectangle square")
     (path /5F0FBFAD)
@@ -1681,7 +1681,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_1.0x1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5EE46F80)
-    (at 128.4 64.3)
+    (at 96.9 71.55)
     (descr "SMD rectangular pad as test Point, square 1.0mm side length")
     (tags "test point SMD pad rectangle square")
     (path /5F0DBFA0)
@@ -1708,7 +1708,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_1.0x1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5EE46F72)
-    (at 130.3 64.3)
+    (at 98.8 71.55)
     (descr "SMD rectangular pad as test Point, square 1.0mm side length")
     (tags "test point SMD pad rectangle square")
     (path /5F0D14F1)
@@ -1735,12 +1735,12 @@
   )
 
   (module Capacitor_SMD:C_0201_0603Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EE46F2D)
-    (at 118.2 99.8)
+    (at 96.95 107.25)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F291015)
     (attr smd)
-    (fp_text reference C20 (at 0 -1.05) (layer F.SilkS)
+    (fp_text reference C20 (at -2.2 -0.05) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value GRM033R61A104ME15D (at 0 1.05) (layer F.Fab)
@@ -1771,7 +1771,7 @@
   )
 
   (module Capacitor_SMD:C_0201_0603Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EE46F1C)
-    (at 117 69.1)
+    (at 93 83.85)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EE61AAB)
@@ -1807,7 +1807,7 @@
   )
 
   (module Capacitor_SMD:C_01005_0402Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EE46F0B)
-    (at 133.7 86.75)
+    (at 111.45 91.5)
     (descr "Capacitor SMD 01005 (0402 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.vishay.com/docs/20056/crcw01005e3.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F01F8C7)
@@ -1843,12 +1843,12 @@
   )
 
   (module Capacitor_SMD:C_01005_0402Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EE46EFA)
-    (at 129.75 91.7)
+    (at 107.5 95.25)
     (descr "Capacitor SMD 01005 (0402 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.vishay.com/docs/20056/crcw01005e3.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F012C82)
     (attr smd)
-    (fp_text reference C17 (at 0 -1) (layer F.SilkS)
+    (fp_text reference C17 (at -2.25 0.05) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value GRM1555C1H120JA01D (at 0 1) (layer F.Fab)
@@ -1879,12 +1879,12 @@
   )
 
   (module Capacitor_SMD:C_0201_0603Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EE46EE9)
-    (at 129 98.4)
+    (at 101.75 107.25)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F291E1F)
     (attr smd)
-    (fp_text reference C16 (at 0 -1.05) (layer F.SilkS)
+    (fp_text reference C16 (at -2.25 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value GRM033R61A104ME15D (at 0 1.05) (layer F.Fab)
@@ -1987,7 +1987,7 @@
   )
 
   (module Capacitor_SMD:C_0201_0603Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EE46EB6)
-    (at 117.6 67.4)
+    (at 93.6 82.15)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EE51064)
@@ -2023,7 +2023,7 @@
   )
 
   (module Capacitor_SMD:C_0201_0603Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EE46EA5)
-    (at 142.47 73.85)
+    (at 114.5 78.5)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F2928C0)
@@ -2059,7 +2059,7 @@
   )
 
   (module Capacitor_SMD:C_0201_0603Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EE46E94)
-    (at 115.1 68.9)
+    (at 91.1 83.65)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EE401EA)
@@ -2095,7 +2095,7 @@
   )
 
   (module Capacitor_SMD:C_0201_0603Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EE46E83)
-    (at 139.69 82.48)
+    (at 109.94 83.23)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F293887)
@@ -2131,7 +2131,7 @@
   )
 
   (module Capacitor_SMD:C_0201_0603Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EE46E72)
-    (at 144.74 71.13)
+    (at 114.49 81.13)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F2DCD44)
@@ -2167,7 +2167,7 @@
   )
 
   (module Capacitor_SMD:C_0201_0603Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EE46E61)
-    (at 147.65 69.38)
+    (at 117.4 79.38)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F31BE2F)
@@ -2203,7 +2203,7 @@
   )
 
   (module Capacitor_SMD:C_0201_0603Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EE46E50)
-    (at 142.14 80.73)
+    (at 112.39 81.48)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F2DB6FD)
@@ -2239,7 +2239,7 @@
   )
 
   (module Capacitor_SMD:C_0201_0603Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EE46E3F)
-    (at 141.87 76.9)
+    (at 112.12 79.65)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F2DDC78)
@@ -2275,7 +2275,7 @@
   )
 
   (module Capacitor_SMD:C_0201_0603Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EE46E2E)
-    (at 147.19 71.13)
+    (at 116.94 81.13)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F2DC5C5)
@@ -2311,7 +2311,7 @@
   )
 
   (module Capacitor_SMD:C_0201_0603Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EE46E1D)
-    (at 144.92 72.88)
+    (at 114.67 82.88)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F2DBE58)
@@ -2347,7 +2347,7 @@
   )
 
   (module .Capacitor:C_0402_1005Metric_L (layer F.Cu) (tedit 5D79AF1C) (tstamp 5EE46E0C)
-    (at 138.27 77.84)
+    (at 109.27 79.34)
     (descr "Capacitor, Chip; 1.00 mm L X 0.50 mm W X 0.65 mm H body")
     (path /5F3006DA)
     (attr smd)
@@ -2395,7 +2395,7 @@
   )
 
   (module Capacitor_SMD:C_0201_0603Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EE46DEE)
-    (at 142.14 82.48)
+    (at 112.39 83.23)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F2DD4D5)
@@ -2431,7 +2431,7 @@
   )
 
   (module .Capacitor:C_0402_1005Metric_L (layer F.Cu) (tedit 5D79AF1C) (tstamp 5EE46DDD)
-    (at 138.6 79.4)
+    (at 109.6 80.9)
     (descr "Capacitor, Chip; 1.00 mm L X 0.50 mm W X 0.65 mm H body")
     (path /5F3042D1)
     (attr smd)
