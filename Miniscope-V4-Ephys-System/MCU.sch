@@ -72,7 +72,7 @@ U 1 1 5EEBC0ED
 P 10325 5150
 F 0 "J16" H 10405 5146 50  0000 L CNN
 F 1 "Conn_01x01" H 10405 5146 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 10405 5101 50  0001 L CNN
+F 2 ".Connector:Conn_1x1_250x750_Pad" H 10405 5101 50  0001 L CNN
 F 3 "~" H 10325 5150 50  0001 C CNN
 	1    10325 5150
 	1    0    0    -1  
@@ -83,7 +83,7 @@ U 1 1 5EEBC0F3
 P 10325 5050
 F 0 "J15" H 10405 5046 50  0000 L CNN
 F 1 "Conn_01x01" H 10405 5046 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 10325 5050 50  0001 C CNN
+F 2 ".Connector:Conn_1x1_250x750_Pad" H 10325 5050 50  0001 C CNN
 F 3 "~" H 10325 5050 50  0001 C CNN
 	1    10325 5050
 	1    0    0    -1  
@@ -471,7 +471,7 @@ Wire Wire Line
 	4125 4275 3650 4275
 Text Label 3650 4275 0    50   ~ 0
 RED_LED
-Text Label 3650 4475 0    50   ~ 0
+Text Label 3175 4500 0    50   ~ 0
 SPI0_NPCS1
 Wire Wire Line
 	4125 4675 3650 4675
@@ -525,7 +525,7 @@ Wire Wire Line
 	7000 4975 6525 4975
 Text Label 7000 3775 2    50   ~ 0
 TD
-Text Label 7000 3975 2    50   ~ 0
+Text Label 7475 4000 2    50   ~ 0
 SPI0_NPCS2
 Text Label 7000 4775 2    50   ~ 0
 SPI0_MISO
@@ -537,9 +537,9 @@ Wire Wire Line
 	7000 5175 6525 5175
 Wire Wire Line
 	7000 5375 6525 5375
-Text Label 7000 5175 2    50   ~ 0
+Text Label 7500 5200 2    50   ~ 0
 SPI0_NPCS1
-Text Label 7000 5375 2    50   ~ 0
+Text Label 7500 5400 2    50   ~ 0
 SPI0_NPCS3
 $Comp
 L .Device:C_Small C9
@@ -1117,8 +1117,8 @@ F 3 "" H 1950 3950 50  0001 C CNN
 	1    1950 3950
 	1    0    0    -1  
 $EndComp
-Text Label 1775 2675 0    50   ~ 0
-XOUT
 Text Label 1225 2675 0    50   ~ 0
+XOUT
+Text Label 1800 2675 0    50   ~ 0
 XIN
 $EndSCHEMATC
