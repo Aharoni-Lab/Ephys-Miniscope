@@ -399,9 +399,9 @@ Wire Wire Line
 	9150 3875 8350 3875
 Text Label 8350 3475 0    50   ~ 0
 SCLK_RHD
-Text Label 8350 3275 0    50   ~ 0
-MOSI_RHD
 Text Label 8350 3875 0    50   ~ 0
+MOSI_RHD
+Text Label 8350 3275 0    50   ~ 0
 CS_RHD
 Wire Wire Line
 	9150 3675 8350 3675
@@ -751,9 +751,9 @@ Wire Notes Line
 	950  6925 950  5775
 Text Notes 1000 5875 0    50   ~ 0
 +3.3V Regulator
-Text Label 10050 3875 0    50   ~ 0
+Text Label 10075 3275 0    50   ~ 0
 CS_MCU
-Text Label 10025 3275 0    50   ~ 0
+Text Label 10075 3875 0    50   ~ 0
 MOSI_MCU
 Text Label 10025 3475 0    50   ~ 0
 SCLK_MCU
@@ -789,11 +789,11 @@ F 3 "" H 8575 5275 50  0001 C CNN
 $EndComp
 Text Label 9125 5675 2    50   ~ 0
 MISO_MCU
-Text Label 9125 5575 2    50   ~ 0
+Text Label 9125 5375 2    50   ~ 0
 MOSI_MCU
 Text Label 9125 5475 2    50   ~ 0
 SCLK_MCU
-Text Label 9125 5375 2    50   ~ 0
+Text Label 9100 5575 2    50   ~ 0
 CS_MCU
 $Comp
 L .Connector:Conn_01x01 J?
