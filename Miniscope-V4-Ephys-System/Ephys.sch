@@ -393,13 +393,13 @@ F 3 "" H 7900 3175 50  0001 C CNN
 	1    7900 3175
 	1    0    0    -1  
 $EndComp
-Text Label 8350 3875 0    50   ~ 0
+Text Label 8350 3675 0    50   ~ 0
 MISO_RHD
 Wire Wire Line
 	9150 3875 8350 3875
-Text Label 8350 3675 0    50   ~ 0
-SCLK_RHD
 Text Label 8350 3475 0    50   ~ 0
+SCLK_RHD
+Text Label 8350 3875 0    50   ~ 0
 MOSI_RHD
 Text Label 8350 3275 0    50   ~ 0
 CS_RHD
@@ -751,49 +751,49 @@ Wire Notes Line
 	950  6925 950  5775
 Text Notes 1000 5875 0    50   ~ 0
 +3.3V Regulator
-Text Label 10000 3275 0    50   ~ 0
+Text Label 10075 3275 0    50   ~ 0
 CS_MCU
-Text Label 10000 3475 0    50   ~ 0
+Text Label 10075 3875 0    50   ~ 0
 MOSI_MCU
-Text Label 10000 3675 0    50   ~ 0
+Text Label 10025 3475 0    50   ~ 0
 SCLK_MCU
-Text Label 10000 3875 0    50   ~ 0
+Text Label 10050 3675 0    50   ~ 0
 MISO_MCU
 $Comp
 L power:+5V #PWR?
 U 1 1 5F13ABB9
-P 8575 5275
+P 8575 5775
 AR Path="/5EEA60FC/5F13ABB9" Ref="#PWR?"  Part="1" 
 AR Path="/5EEA5765/5F13ABB9" Ref="#PWR?"  Part="1" 
 AR Path="/5EE85536/5F13ABB9" Ref="#PWR01"  Part="1" 
-F 0 "#PWR01" H 8575 5125 50  0001 C CNN
-F 1 "+5V" H 8590 5448 50  0000 C CNN
-F 2 "" H 8575 5275 50  0001 C CNN
-F 3 "" H 8575 5275 50  0001 C CNN
-	1    8575 5275
-	1    0    0    -1  
+F 0 "#PWR01" H 8575 5625 50  0001 C CNN
+F 1 "+5V" H 8590 5948 50  0000 C CNN
+F 2 "" H 8575 5775 50  0001 C CNN
+F 3 "" H 8575 5775 50  0001 C CNN
+	1    8575 5775
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F13ABBF
-P 8575 5775
+P 8575 5275
 AR Path="/5EEA60FC/5F13ABBF" Ref="#PWR?"  Part="1" 
 AR Path="/5EEA5765/5F13ABBF" Ref="#PWR?"  Part="1" 
 AR Path="/5EE85536/5F13ABBF" Ref="#PWR02"  Part="1" 
-F 0 "#PWR02" H 8575 5525 50  0001 C CNN
-F 1 "GND" H 8580 5602 50  0000 C CNN
-F 2 "" H 8575 5775 50  0001 C CNN
-F 3 "" H 8575 5775 50  0001 C CNN
-	1    8575 5775
-	1    0    0    -1  
+F 0 "#PWR02" H 8575 5025 50  0001 C CNN
+F 1 "GND" H 8580 5102 50  0000 C CNN
+F 2 "" H 8575 5275 50  0001 C CNN
+F 3 "" H 8575 5275 50  0001 C CNN
+	1    8575 5275
+	0    1    1    0   
 $EndComp
 Text Label 9125 5675 2    50   ~ 0
 MISO_MCU
-Text Label 9125 5575 2    50   ~ 0
+Text Label 9125 5375 2    50   ~ 0
 MOSI_MCU
 Text Label 9125 5475 2    50   ~ 0
 SCLK_MCU
-Text Label 9125 5375 2    50   ~ 0
+Text Label 9100 5575 2    50   ~ 0
 CS_MCU
 $Comp
 L .Connector:Conn_01x01 J?
