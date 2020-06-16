@@ -21,7 +21,7 @@ AR Path="/5EE9E10F" Ref="J?"  Part="1"
 AR Path="/5EE85536/5EE9E10F" Ref="J1"  Part="1" 
 F 0 "J1" H 2000 4442 50  0000 C CNN
 F 1 "34  Circuit Slimslack Connector" H 2000 4350 50  0000 C CNN
-F 2 ".Connector:SS_5046223412" H 1950 3425 50  0001 C CNN
+F 2 ".Connector:SS_5046183412" H 1950 3425 50  0001 C CNN
 F 3 "~" H 1950 3425 50  0001 C CNN
 	1    1950 3425
 	1    0    0    -1  

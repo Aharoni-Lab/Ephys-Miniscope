@@ -21,7 +21,7 @@ AR Path="/5EEA60FC/5F12E1C6" Ref="J?"  Part="1"
 AR Path="/5EEA5765/5F12E1C6" Ref="J3"  Part="1" 
 F 0 "J3" H 5305 3521 50  0000 L CNN
 F 1 "Conn_01x01" H 5305 3521 50  0001 L CNN
-F 2 ".Connector:Spring_2306654_3" H 5225 3525 50  0001 C CNN
+F 2 ".Connector:Conn_1x1_250x750_Pad" H 5225 3525 50  0001 C CNN
 F 3 "~" H 5225 3525 50  0001 C CNN
 	1    5225 3525
 	1    0    0    -1  
@@ -34,7 +34,7 @@ AR Path="/5EEA60FC/5F12E1CC" Ref="J?"  Part="1"
 AR Path="/5EEA5765/5F12E1CC" Ref="J5"  Part="1" 
 F 0 "J5" H 5305 3621 50  0000 L CNN
 F 1 "Conn_01x01" H 5305 3621 50  0001 L CNN
-F 2 ".Connector:Spring_2306654_3" H 5225 3625 50  0001 C CNN
+F 2 ".Connector:Conn_1x1_250x750_Pad" H 5225 3625 50  0001 C CNN
 F 3 "~" H 5225 3625 50  0001 C CNN
 	1    5225 3625
 	1    0    0    -1  
@@ -47,7 +47,7 @@ AR Path="/5EEA60FC/5F12E1D2" Ref="J?"  Part="1"
 AR Path="/5EEA5765/5F12E1D2" Ref="J7"  Part="1" 
 F 0 "J7" H 5305 3721 50  0000 L CNN
 F 1 "Conn_01x01" H 5305 3721 50  0001 L CNN
-F 2 ".Connector:Spring_2306654_3" H 5225 3725 50  0001 C CNN
+F 2 ".Connector:Conn_1x1_250x750_Pad" H 5225 3725 50  0001 C CNN
 F 3 "~" H 5225 3725 50  0001 C CNN
 	1    5225 3725
 	1    0    0    -1  
@@ -60,7 +60,7 @@ AR Path="/5EEA60FC/5F12E1D8" Ref="J?"  Part="1"
 AR Path="/5EEA5765/5F12E1D8" Ref="J9"  Part="1" 
 F 0 "J9" H 5305 3821 50  0000 L CNN
 F 1 "Conn_01x01" H 5305 3821 50  0001 L CNN
-F 2 ".Connector:Spring_2306654_3" H 5225 3825 50  0001 C CNN
+F 2 ".Connector:Conn_1x1_250x750_Pad" H 5225 3825 50  0001 C CNN
 F 3 "~" H 5225 3825 50  0001 C CNN
 	1    5225 3825
 	1    0    0    -1  
@@ -73,7 +73,7 @@ AR Path="/5EEA60FC/5F12E1DE" Ref="J?"  Part="1"
 AR Path="/5EEA5765/5F12E1DE" Ref="J11"  Part="1" 
 F 0 "J11" H 5305 3921 50  0000 L CNN
 F 1 "Conn_01x01" H 5305 3921 50  0001 L CNN
-F 2 ".Connector:Spring_2306654_3" H 5225 3925 50  0001 C CNN
+F 2 ".Connector:Conn_1x1_250x750_Pad" H 5225 3925 50  0001 C CNN
 F 3 "~" H 5225 3925 50  0001 C CNN
 	1    5225 3925
 	1    0    0    -1  
@@ -86,7 +86,7 @@ AR Path="/5EEA60FC/5F12E1E4" Ref="J?"  Part="1"
 AR Path="/5EEA5765/5F12E1E4" Ref="J13"  Part="1" 
 F 0 "J13" H 5305 4021 50  0000 L CNN
 F 1 "Conn_01x01" H 5305 4021 50  0001 L CNN
-F 2 ".Connector:Spring_2306654_3" H 5225 4025 50  0001 C CNN
+F 2 ".Connector:Conn_1x1_250x750_Pad" H 5225 4025 50  0001 C CNN
 F 3 "~" H 5225 4025 50  0001 C CNN
 	1    5225 4025
 	1    0    0    -1  

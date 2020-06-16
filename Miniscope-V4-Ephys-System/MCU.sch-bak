@@ -1117,8 +1117,8 @@ F 3 "" H 1950 3950 50  0001 C CNN
 	1    1950 3950
 	1    0    0    -1  
 $EndComp
-Text Label 1775 2675 0    50   ~ 0
-XOUT
 Text Label 1225 2675 0    50   ~ 0
+XOUT
+Text Label 1800 2675 0    50   ~ 0
 XIN
 $EndSCHEMATC

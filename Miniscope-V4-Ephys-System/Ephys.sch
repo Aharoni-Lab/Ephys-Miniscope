@@ -21,7 +21,7 @@ AR Path="/5EE9E10F" Ref="J?"  Part="1"
 AR Path="/5EE85536/5EE9E10F" Ref="J1"  Part="1" 
 F 0 "J1" H 2000 4442 50  0000 C CNN
 F 1 "34  Circuit Slimslack Connector" H 2000 4350 50  0000 C CNN
-F 2 ".Connector:SS_5046223412" H 1950 3425 50  0001 C CNN
+F 2 ".Connector:SS_5046183412" H 1950 3425 50  0001 C CNN
 F 3 "~" H 1950 3425 50  0001 C CNN
 	1    1950 3425
 	1    0    0    -1  
@@ -195,45 +195,47 @@ Ephys IC
 Wire Notes Line
 	3325 4775 800  4775
 Wire Wire Line
-	1750 3825 1200 3825
-Wire Wire Line
 	1750 3925 1200 3925
 Wire Wire Line
 	1750 4025 1200 4025
 Wire Wire Line
 	1750 4125 1200 4125
-Text Label 1200 4125 0    50   ~ 0
+Wire Wire Line
+	1750 4225 1200 4225
+Text Label 1200 4225 0    50   ~ 0
 IN23
-Text Label 1200 4025 0    50   ~ 0
+Text Label 1200 4125 0    50   ~ 0
 IN22
-Text Label 1200 3925 0    50   ~ 0
+Text Label 1200 4025 0    50   ~ 0
 IN21
-Text Label 1200 3825 0    50   ~ 0
+Text Label 1200 3925 0    50   ~ 0
 IN20
-Text Label 1200 3725 0    50   ~ 0
+Text Label 1200 3825 0    50   ~ 0
 IN19
-Text Label 1200 3625 0    50   ~ 0
+Text Label 1200 3725 0    50   ~ 0
 IN18
-Text Label 1200 3525 0    50   ~ 0
+Text Label 1200 3625 0    50   ~ 0
 IN17
-Text Label 1200 3425 0    50   ~ 0
+Text Label 1200 3525 0    50   ~ 0
 IN16
-Text Label 1200 3325 0    50   ~ 0
+Text Label 1200 3425 0    50   ~ 0
 IN15
-Text Label 1200 3225 0    50   ~ 0
+Text Label 1200 3325 0    50   ~ 0
 IN14
-Text Label 1200 3125 0    50   ~ 0
+Text Label 1200 3225 0    50   ~ 0
 IN13
-Text Label 1200 3025 0    50   ~ 0
+Text Label 1200 3125 0    50   ~ 0
 IN12
-Text Label 1200 2925 0    50   ~ 0
+Text Label 1200 3025 0    50   ~ 0
 IN11
-Text Label 1200 2825 0    50   ~ 0
+Text Label 1200 2925 0    50   ~ 0
 IN10
-Text Label 1200 2725 0    50   ~ 0
+Text Label 1200 2825 0    50   ~ 0
 IN9
-Text Label 1200 2625 0    50   ~ 0
+Text Label 1200 2725 0    50   ~ 0
 IN8
+Wire Wire Line
+	1750 3825 1200 3825
 Wire Wire Line
 	1750 3725 1200 3725
 Wire Wire Line
@@ -257,45 +259,45 @@ Wire Wire Line
 Wire Wire Line
 	1750 2725 1200 2725
 Wire Wire Line
-	1750 2625 1200 2625
+	2250 3625 2750 3625
+Wire Wire Line
+	2250 3125 2850 3125
+Wire Wire Line
+	2250 3325 2850 3325
 Wire Wire Line
 	2250 3525 2750 3525
-Wire Wire Line
-	2250 3025 2850 3025
-Wire Wire Line
-	2250 3225 2850 3225
-Wire Wire Line
-	2250 3425 2750 3425
-Text Label 2550 4125 0    50   ~ 0
+Text Label 2550 4225 0    50   ~ 0
 IN24
-Text Label 2550 4025 0    50   ~ 0
+Text Label 2550 4125 0    50   ~ 0
 IN25
-Text Label 2550 3925 0    50   ~ 0
+Text Label 2550 4025 0    50   ~ 0
 IN26
-Text Label 2550 3825 0    50   ~ 0
+Text Label 2550 3925 0    50   ~ 0
 IN27
-Text Label 2550 3725 0    50   ~ 0
+Text Label 2550 3825 0    50   ~ 0
 IN28
-Text Label 2550 3625 0    50   ~ 0
+Text Label 2550 3725 0    50   ~ 0
 IN29
-Text Label 2550 3525 0    50   ~ 0
+Text Label 2550 3625 0    50   ~ 0
 IN30
-Text Label 2550 3425 0    50   ~ 0
+Text Label 2550 3525 0    50   ~ 0
 IN31
-Text Label 2700 3325 0    50   ~ 0
+Text Label 2700 3425 0    50   ~ 0
 IN0
-Text Label 2700 3225 0    50   ~ 0
+Text Label 2700 3325 0    50   ~ 0
 IN1
-Text Label 2700 3125 0    50   ~ 0
+Text Label 2700 3225 0    50   ~ 0
 IN2
-Text Label 2700 3025 0    50   ~ 0
+Text Label 2700 3125 0    50   ~ 0
 IN3
-Text Label 2700 2925 0    50   ~ 0
+Text Label 2700 3025 0    50   ~ 0
 IN4
-Text Label 2700 2825 0    50   ~ 0
+Text Label 2700 2925 0    50   ~ 0
 IN5
-Text Label 2700 2725 0    50   ~ 0
+Text Label 2700 2825 0    50   ~ 0
 IN6
+Wire Wire Line
+	2250 4225 2750 4225
 Wire Wire Line
 	2250 4125 2750 4125
 Wire Wire Line
@@ -307,66 +309,46 @@ Wire Wire Line
 Wire Wire Line
 	2250 3725 2750 3725
 Wire Wire Line
-	2250 3625 2750 3625
+	2250 3425 2850 3425
 Wire Wire Line
-	2250 3325 2850 3325
+	2250 3225 2850 3225
 Wire Wire Line
-	2250 3125 2850 3125
+	2250 3025 2850 3025
 Wire Wire Line
 	2250 2925 2850 2925
 Wire Wire Line
 	2250 2825 2850 2825
-Wire Wire Line
-	2250 2725 2850 2725
-Text Label 2700 2625 0    50   ~ 0
+Text Label 2700 2725 0    50   ~ 0
 IN7
 Wire Wire Line
-	2250 2625 2850 2625
+	2250 2725 2850 2725
 $Comp
 L .Device:R_Small_US R?
 U 1 1 5EE9E203
-P 2000 4625
+P 1975 2300
 AR Path="/5EE9E203" Ref="R?"  Part="1" 
 AR Path="/5EE85536/5EE9E203" Ref="R4"  Part="1" 
-F 0 "R4" V 1795 4625 50  0000 C CNN
-F 1 "0" V 1886 4625 50  0000 C CNN
-F 2 ".Resistor:R_0201_0603Metric_ERJ_L" H 2000 4625 50  0001 C CNN
-F 3 "~" H 2000 4625 50  0001 C CNN
-	1    2000 4625
+F 0 "R4" V 1770 2300 50  0000 C CNN
+F 1 "0" V 1861 2300 50  0000 C CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" H 1975 2300 50  0001 C CNN
+F 3 "~" H 1975 2300 50  0001 C CNN
+	1    1975 2300
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2375 4225 2750 4225
-Connection ~ 2375 4225
-Wire Wire Line
-	2375 4625 2375 4225
-Wire Wire Line
-	2100 4625 2375 4625
-Wire Wire Line
-	2250 4225 2375 4225
-Text Label 2750 4225 2    50   ~ 0
+Text Label 1450 2625 2    50   ~ 0
 REF_ELEC
-Wire Wire Line
-	1525 4225 1200 4225
-Connection ~ 1525 4225
-Wire Wire Line
-	1525 4625 1900 4625
-Wire Wire Line
-	1525 4225 1525 4625
-Wire Wire Line
-	1750 4225 1525 4225
 $Comp
 L power:GND #PWR?
 U 1 1 5EE9E214
-P 1200 4225
+P 2750 2625
 AR Path="/5EE9E214" Ref="#PWR?"  Part="1" 
 AR Path="/5EE85536/5EE9E214" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 1200 3975 50  0001 C CNN
-F 1 "GND" V 1205 4097 50  0000 R CNN
-F 2 "" H 1200 4225 50  0001 C CNN
-F 3 "" H 1200 4225 50  0001 C CNN
-	1    1200 4225
-	0    1    1    0   
+F 0 "#PWR0101" H 2750 2375 50  0001 C CNN
+F 1 "GND" V 2755 2497 50  0000 R CNN
+F 2 "" H 2750 2625 50  0001 C CNN
+F 3 "" H 2750 2625 50  0001 C CNN
+	1    2750 2625
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Logic_LevelTranslator:TXB0304RUT U2
@@ -909,4 +891,22 @@ Wire Wire Line
 	8575 5775 9325 5775
 Wire Wire Line
 	8575 5275 9325 5275
+Wire Wire Line
+	1200 2625 1525 2625
+Wire Wire Line
+	2250 2625 2575 2625
+Wire Wire Line
+	2575 2625 2575 2300
+Wire Wire Line
+	2575 2300 2075 2300
+Connection ~ 2575 2625
+Wire Wire Line
+	2575 2625 2750 2625
+Wire Wire Line
+	1875 2300 1525 2300
+Wire Wire Line
+	1525 2300 1525 2625
+Connection ~ 1525 2625
+Wire Wire Line
+	1525 2625 1750 2625
 $EndSCHEMATC
