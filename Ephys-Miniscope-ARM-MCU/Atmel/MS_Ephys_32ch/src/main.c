@@ -970,7 +970,11 @@ void XDMAC_Handler(void)
 
 void SysTick_Handler(void) {
 	//Should only be triggering when ephys is running.
-	ioport_set_pin_level(LED_PIN,0b1&(acq_ticks>>10));
+	
+	// This blinks the status LED on the ephys PCB
+	//ioport_set_pin_level(LED_PIN,0b1&(acq_ticks>>10));
+	//-----------------------------------------
+	
 	//ioport_toggle_pin_level(LED_PIN);
 	if (ephys_state == STATE_RUNNING) {
 		acq_ticks++;
