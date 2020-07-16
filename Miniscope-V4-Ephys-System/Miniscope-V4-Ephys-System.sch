@@ -4,11 +4,11 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 4
-Title ""
-Date ""
-Rev ""
+Title "E-Scope System"
+Date "2020-07-15"
+Rev "v0.1"
 Comp ""
-Comment1 ""
+Comment1 "Daniel Aharoni"
 Comment2 ""
 Comment3 ""
 Comment4 ""
